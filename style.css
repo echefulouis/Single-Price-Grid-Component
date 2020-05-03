@@ -1,14 +1,36 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    @media screen and (min-width: 400px) {
+        .main{
+            display: flex;
+            flex-basis: 100%;
+        }
+        #middle{
+            flex-basis: 100%;
+            border: 1px hsl(179, 62%, 43%);
+            padding: 14px 20px;
+            background-color: hsl(179, 62%, 43%);
+            color: white;
+          }
+          #down{
+              flex-basis: 100%;
+            border: 1px hsl(179, 49%, 59%);
+            padding: 20px;
+            background-color: hsl(179, 49%, 59%);
+            color: white;
+            border-radius: 0 0 5px 5p
+          }
+    }
     body{
       background-color: hsl(204, 43%, 93%);
       font-family: 'Karla', sans-serif;
     }
     
     .container{
-      width: 85%;
-      margin: 30px auto;
-      font-family: Arial, Helvetica, sans-serif;
+      width: 90%;
+      margin: 30% auto;
+      box-shadow: 10px 10px 8px rgba(141, 141, 141, 0.533);
+
     }
     #top{
       border-radius: 5px 5px 0 0;
@@ -19,6 +41,7 @@
       
     }
     #middle{
+        
       border: 1px hsl(179, 62%, 43%);
       padding: 14px 20px;
       background-color: hsl(179, 62%, 43%);
@@ -29,7 +52,7 @@
       padding: 20px;
       background-color: hsl(179, 49%, 59%);
       color: white;
-      border-radius: 0 0 5px 5px;
+      border-radius: 0 0 5px 5p
     }
     #top h3{
       margin-top: 5px;
@@ -46,34 +69,51 @@
       line-height: 30px;
     }
     #middle p{
-      color: white;
-      margin: 10px auto;
-      line-height: 20px;
+      margin-top: 30px;
+      padding-left: 60px;
+      color:hsl(178, 36%, 82%);
+      line-height: 15px;
       font-size:16px;
-      font-weight: 400;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
+      font-weight: lighter;
+    }
+    #middle h4{
+        color: hsl(0, 0%, 100%);
+        line-height: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+}
+    #middle strong{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        float: left;
     }
     #middle h5{
-        color: hsl(189, 7%, 81%);
+        color: hsl(204, 43%, 93%);
         letter-spacing: 1px;
-        font-weight: 200;
+        font-weight: 100;
     }
     button{
       width: 100%;
+      margin: 10px 0;
       padding: 14px 20px;
       background-color: hsl(71, 73%, 54%);
       color: white;
-      border: 0.5px solid gray;
+      border: 0.2px solid rgb(165, 164, 164);
       border-radius: 5px;
       font-size: 15px;
-    }
-    #inline{
-      display: inline;
+      box-shadow: 10px 10px 8px rgba(141, 141, 141, 0.533);
     }
     #down p {
       margin-bottom: 0;
-      line-height: 20px;
-      width: 70%; 
-      text-align: left; 
-      font-weight: 300;
+      color: whitesmoke;
+      line-height:20px;
+      width: 63%; 
+      font-weight: 100;
+      font-size: 14px;
+      font-weight: lighter;
     }
+
