@@ -1,0 +1,79 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(204, 43%, 93%);
+      font-family: 'Karla', sans-serif;
+    }
+    
+    .container{
+      width: 85%;
+      margin: 30px auto;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #top{
+      border-radius: 5px 5px 0 0;
+      border: 1px #fff solid;
+      padding: 20px;
+      background-color: white;
+      text-align: left;
+      
+    }
+    #middle{
+      border: 1px hsl(179, 62%, 43%);
+      padding: 14px 20px;
+      background-color: hsl(179, 62%, 43%);
+      color: white;
+    }
+    #down{
+      border: 1px hsl(179, 49%, 59%);
+      padding: 20px;
+      background-color: hsl(179, 49%, 59%);
+      color: white;
+      border-radius: 0 0 5px 5px;
+    }
+    #top h3{
+      margin-top: 5px;
+      color: hsl(179, 62%, 43%);
+    }
+    #top h4{
+      color: hsl(71, 73%, 54%);
+      line-height: 20px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    #top h5{
+      color: hsl(0, 0%, 73%);
+      line-height: 30px;
+    }
+    #middle p{
+      color: white;
+      margin: 10px auto;
+      line-height: 20px;
+      font-size:16px;
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+    #middle h5{
+        color: hsl(189, 7%, 81%);
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+    button{
+      width: 100%;
+      padding: 14px 20px;
+      background-color: hsl(71, 73%, 54%);
+      color: white;
+      border: 0.5px solid gray;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    #inline{
+      display: inline;
+    }
+    #down p {
+      margin-bottom: 0;
+      line-height: 20px;
+      width: 70%; 
+      text-align: left; 
+      font-weight: 300;
+    }
